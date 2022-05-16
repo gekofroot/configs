@@ -39,7 +39,7 @@ hi LineNr		guifg=black		ctermfg=black
 hi title		guifg=white	gui=bold	cterm=bold
 
 hi StatusLineNC	gui=NONE	guifg=black guibg=black	ctermfg=black  ctermbg=black
-hi StatusLine	gui=bold	guifg=black	guibg=black	ctermfg=black   ctermbg=black
+hi StatusLine	gui=bold	guifg=black	guibg=black	ctermfg=black   ctermbg=white cterm=none
 hi VertSplit	gui=none	guifg=black	guibg=black	ctermfg=black	ctermbg=black
 
 hi Visual		term=reverse		ctermfg=black	ctermbg=black	guifg=black		guibg=black
