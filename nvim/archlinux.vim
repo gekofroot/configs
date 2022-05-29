@@ -67,4 +67,4 @@ command! Csniagra call Csniagra()
 function! Cstripl_cheese()
 	colorscheme tripl_cheese
 endfunction
-command! Cstripl_cheese call Cstripl_cheese()
+command! Cstripl call Cstripl_cheese()
