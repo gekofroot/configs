@@ -1,17 +1,15 @@
 " local syntax file - set colors on a per-machine basis:
 " vim: tw=0 ts=4 sw=4
 " Vim color file
-" Maintainer:	Steven Vertigan <steven@vertigan.wattle.id.au>
-" Last Change:	2006 Sep 23
-" Revision #5: Switch main text from magenta to magenta for easier contrast,
-" fixed some problems with terminal backgrounds.
+" Maintainer:
+" Last Change:
 
 set background=dark
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "black"
+let g:colors_name = "pink_print"
 hi Normal		guifg=magenta	guibg=black	ctermfg=magenta	ctermbg=black
 hi NonText		guifg=magenta	ctermfg=magenta
 hi comment		guifg=magenta		ctermfg=magenta	ctermbg=black	gui=bold 

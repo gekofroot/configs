@@ -9,11 +9,11 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "green"
-hi Normal		guifg=green	guibg=black	ctermfg=green	ctermbg=black
+let g:colors_name = "mint"
+hi Normal		guifg=green	guibg=black	ctermfg=lightgreen	ctermbg=black 
 hi NonText		guifg=green	ctermfg=green
-hi comment		guifg=green		ctermfg=green	ctermbg=black	gui=bold 
-hi constant		guifg=green		ctermfg=green
+hi comment		guifg=green	ctermfg=darkgray	ctermbg=black	gui=bold 
+hi constant		guifg=green	ctermfg=green
 hi identifier	guifg=green		ctermfg=green
 hi statement	guifg=green		ctermfg=green	ctermbg=black	gui=none
 hi preproc		guifg=green		ctermfg=green

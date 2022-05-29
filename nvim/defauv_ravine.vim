@@ -1,10 +1,6 @@
 " Vim color file
-" Maintainer:	Bohdan Vlasyuk <bohdan@vstu.edu.ua>
-" Last Change:	2008 Jul 18
-
-" darkblue -- for those who prefer dark background
-" [note: looks bit uglier with come terminal palettes,
-" but is fine on default linux console palette.]
+" Maintainer:
+" Last Change:
 
 set bg=dark
 hi clear
