@@ -1,4 +1,4 @@
-# Default config for sway
+#Default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
@@ -27,7 +27,7 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-#output * bg fill
+output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Example configuration:
 #
@@ -75,6 +75,11 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
     # Start your launcher
     bindsym $mod+d exec $menu
 
+    # Set volume
+    bindsym $mod+F6 exec amixer sset Master toggle
+    bindsym $mod+F7 exec amixer sset Master 5%-
+    bindsym $mod+f8 exec amixer sset Master 5%+
+
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.
@@ -86,7 +91,7 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec swaynag -t warning -m 'Exit sway?' -b 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
