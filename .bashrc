@@ -49,6 +49,9 @@ a() { cmus-remote -r; c; econ; }
 d() { cmus-remote -n; c; econ; }
 w() { cmus-remote -u; c; econ; }
 
+# git
+gc() { git clone https://github.com/"$1"/"$2"; }
+
 # system
 scn() { sudo xbacklight -set "$@"; }
 sd() { shutdown now; }
